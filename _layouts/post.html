@@ -58,7 +58,9 @@ post_class: post-template
 {% include share.html %}
 
 <!-- Related Post -->
+{% if site.posts.size > 0 %}
 {% include related-posts.html %}
+{% endif %}
 
 <!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 
 https://search.google.com/structured-data/testing-tool/u/0/
