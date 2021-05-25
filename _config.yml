@@ -12,6 +12,7 @@ mailchimp-list: ''
 include: ["_pages"]
 permalink: /:title/
 email: marioportelag@gmail.com
+contactEndpoint: https://formspree.io/f/xoqydqqd
 
 # Authors
 authors:
